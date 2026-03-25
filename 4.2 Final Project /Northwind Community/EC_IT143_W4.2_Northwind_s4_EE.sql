@@ -16,9 +16,9 @@ Ver    Date        Author    Description
 
 ******************************************************************************/
 
-DROP VIEW IF EXISTS dbo.v_ec_it143_w4.2_northwind;
+DROP VIEW IF EXISTS dbo.v_ec_it143_w_northwind;
 GO
-CREATE VIEW dbo.v_ec_it143_w4.2_northwind AS
+CREATE VIEW dbo.v_ec_it143_w_northwind AS
 SELECT c.CategoryName, COUNT(p.ProductID) AS total_products
 FROM Categories c
 LEFT JOIN Products p ON c.CategoryID = p.CategoryID
