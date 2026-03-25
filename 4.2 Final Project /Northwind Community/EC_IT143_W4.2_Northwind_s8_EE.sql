@@ -16,4 +16,4 @@ Ver    Date        Author    Description
 
 ******************************************************************************/
 
-EXEC dbo.usp_ec_it143_w4.2_northwind;
+EXEC dbo.usp_ec_it143_w_northwind;
