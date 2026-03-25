@@ -16,5 +16,6 @@ Ver    Date        Author    Description
 
 ******************************************************************************/
 
-TRUNCATE TABLE dbo.t_ec_it143_w4.2_pubs;
-INSERT INTO dbo.t_ec_it143_w4.2_pubs SELECT * FROM dbo.v_ec_it143_w4.2_pubs;
+
+TRUNCATE TABLE dbo.v_ec_it143_pubs;
+INSERT INTO dbo.v_ec_it143_pubs SELECT * FROM dbo.v_ec_it143_pubs;
