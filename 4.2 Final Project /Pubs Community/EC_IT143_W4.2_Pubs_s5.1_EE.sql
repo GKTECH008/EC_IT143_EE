@@ -16,4 +16,4 @@ Ver    Date        Author    Description
 
 ******************************************************************************/
 
-SELECT * INTO dbo.t_ec_it143_w4.2_pubs FROM dbo.v_ec_it143_w4.2_pubs;
+SELECT * INTO dbo.v_ec_it143_pubs FROM dbo.v_ec_it143_pubs;
