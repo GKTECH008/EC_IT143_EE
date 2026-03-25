@@ -16,6 +16,11 @@ Ver    Date        Author    Description
 
 ******************************************************************************/
 
-DROP TABLE IF EXISTS dbo.v_ec_it143_pubs;
+DROP TABLE IF EXISTS dbo.t_pubs_titles_per_type;
 GO
-CREATE TABLE dbo.v_ec_it143_pubs (col1 VARCHAR(100), col2 INT);
+
+CREATE TABLE dbo.t_pubs_titles_per_type (
+    type VARCHAR(50) NOT NULL,
+    total_titles INT NOT NULL,
+    CONSTRAINT PK_pubs PRIMARY KEY (type)
+);
