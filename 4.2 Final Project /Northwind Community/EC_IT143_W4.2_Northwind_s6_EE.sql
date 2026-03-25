@@ -16,5 +16,5 @@ Ver    Date        Author    Description
 
 ******************************************************************************/
 
-TRUNCATE TABLE dbo.t_ec_it143_w4.2_northwind;
-INSERT INTO dbo.t_ec_it143_w4.2_northwind SELECT * FROM dbo.v_ec_it143_w4.2_northwind;
+TRUNCATE TABLE dbo.t_ec_it143_w_northwind;
+INSERT INTO dbo.t_ec_it143_w_northwind SELECT * FROM dbo.v_ec_it143_w_northwind;
