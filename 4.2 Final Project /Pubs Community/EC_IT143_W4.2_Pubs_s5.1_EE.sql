@@ -16,4 +16,6 @@ Ver    Date        Author    Description
 
 ******************************************************************************/
 
-SELECT * INTO dbo.v_ec_it143_pubs FROM dbo.v_ec_it143_pubs;
+SELECT *
+INTO dbo.t_pubs_titles_per_type
+FROM dbo.v_pubs_titles_per_type;
