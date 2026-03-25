@@ -16,6 +16,6 @@ Ver    Date        Author    Description
 
 ******************************************************************************/
 
-DROP TABLE IF EXISTS dbo.t_ec_it143_w4.2_northwind;
+DROP TABLE IF EXISTS dbo.t_ec_it143_w_northwind;
 GO
-CREATE TABLE dbo.t_ec_it143_w4.2_northwind (col1 VARCHAR(100), col2 INT);
+CREATE TABLE dbo.t_ec_it143_w_northwind (col1 VARCHAR(100), col2 INT);
