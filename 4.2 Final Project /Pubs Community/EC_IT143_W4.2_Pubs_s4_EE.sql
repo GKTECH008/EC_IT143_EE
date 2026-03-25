@@ -16,10 +16,11 @@ Ver    Date        Author    Description
 
 ******************************************************************************/
 
-DROP VIEW IF EXISTS dbo.v_ec_it143_pubs;
+DROP VIEW IF EXISTS dbo.v_pubs_titles_per_type;
 GO
 
-CREATE VIEW dbo.v_ec_it143_pubs AS
-SELECT type, COUNT(title_id) AS total_titles
+CREATE VIEW dbo.v_pubs_titles_per_type AS
+SELECT type,
+       COUNT(title_id) AS total_titles
 FROM titles
 GROUP BY type;
