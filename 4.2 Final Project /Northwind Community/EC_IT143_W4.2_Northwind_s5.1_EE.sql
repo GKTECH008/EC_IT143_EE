@@ -16,4 +16,4 @@ Ver    Date        Author    Description
 
 ******************************************************************************/
 
-SELECT * INTO dbo.t_ec_it143_w4.2_northwind FROM dbo.v_ec_it143_w4.2_northwind;
+SELECT * INTO dbo.t_ec_it143_w_northwind FROM dbo.v_ec_it143_w_northwind;
