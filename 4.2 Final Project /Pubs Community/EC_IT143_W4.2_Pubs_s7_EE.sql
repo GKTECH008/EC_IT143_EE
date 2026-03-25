@@ -16,4 +16,11 @@ Ver    Date        Author    Description
 
 ******************************************************************************/
 
-CREATE PROCEDURE dbo.usp_ec_it143_w4.2_pubs AS BEGIN TRUNCATE TABLE dbo.t_ec_it143_w4.2_pubs; INSERT INTO dbo.t_ec_it143_w4.2_pubs SELECT * FROM dbo.v_ec_it143_w4.2_pubs; END;
+CREATE PROCEDURE dbo.usp_pubs_load
+AS
+BEGIN
+    TRUNCATE TABLE dbo.t_pubs_titles_per_type;
+
+    INSERT INTO dbo.t_pubs_titles_per_type
+    SELECT * FROM dbo.v_pubs_titles_per_type;
+END;
