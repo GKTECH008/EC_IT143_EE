@@ -16,6 +16,6 @@ Ver    Date        Author    Description
 
 ******************************************************************************/
 
-DROP TABLE IF EXISTS dbo.t_ec_it143_w4.2_pubs;
+DROP TABLE IF EXISTS dbo.v_ec_it143_pubs;
 GO
-CREATE TABLE dbo.t_ec_it143_w4.2_pubs (col1 VARCHAR(100), col2 INT);
+CREATE TABLE dbo.v_ec_it143_pubs (col1 VARCHAR(100), col2 INT);
