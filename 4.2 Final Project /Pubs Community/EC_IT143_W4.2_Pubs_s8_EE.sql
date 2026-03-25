@@ -15,5 +15,4 @@ Ver    Date        Author    Description
 1.0    2026-03-25  EE        Initial creation
 
 ******************************************************************************/
-
-EXEC dbo.usp_ec_it143_w4.2_pubs;
+EXEC dbo.usp_pubs_load;
