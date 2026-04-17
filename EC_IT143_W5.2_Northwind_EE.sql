@@ -14,11 +14,11 @@ Question: What is the total number of orders per customer?
 */
 SELECT 
     c.CustomerID,
-    c.CompanyName,
+    c.CustomerName as Company,
     COUNT(o.OrderID) AS TotalOrders
 FROM Customers c
 JOIN Orders o ON c.CustomerID = o.CustomerID
-GROUP BY c.CustomerID, c.CompanyName;
+GROUP BY c.CustomerID, c.CustomerName;
 
 
 /* Question 2
